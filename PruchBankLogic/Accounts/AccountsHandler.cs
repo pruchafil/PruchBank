@@ -39,7 +39,7 @@ namespace PruchBankLogic.Accounts
 					}
 				}
 
-				await Task.Delay(SecondsInDay);
+				await Task.Delay(SecondsInDay * 2);
 			}
 		}
 
